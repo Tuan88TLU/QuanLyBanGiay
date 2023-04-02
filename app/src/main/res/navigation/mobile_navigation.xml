@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nhaphang">
+
+    <fragment
+        android:id="@+id/nhaphang"
+        android:name="com.example.myapplication.ui.XuatHang.XuatHangFragment"
+        android:label="@string/nhaphang"
+        tools:layout="@layout/fragment_nhaphang" />
+
+    <fragment
+        android:id="@+id/xuathang"
+        android:name="com.example.myapplication.ui.NhapHang.NhapHangFragment"
+        android:label="@string/xuathang"
+        tools:layout="@layout/fragment_xuathang" />
+
+    <fragment
+        android:id="@+id/chitiet_nhap"
+        android:name="com.example.myapplication.ui.NhapHang.NhapHangFragment"
+        android:label="@string/chitiet_nhap"
+        tools:layout="@layout/fragment_xuathang" />
+
+    <fragment
+        android:id="@+id/chitiet_xuat"
+        android:name="com.example.myapplication.ui.XuatHang.XuatHangFragment"
+        android:label="@string/chitiet_xuat"
+        tools:layout="@layout/fragment_nhaphang" />
+
+    <fragment
+        android:id="@+id/hangtrongkho"
+        android:name="com.example.myapplication.ui.Log.LogFragment"
+        android:label="@string/hangtrongkho"
+        tools:layout="@layout/hangtrongkho" />
+
+    <fragment
+        android:id="@+id/logout"
+        android:name="com.example.myapplication.ui.Log.LogFragment"
+        android:label="@string/logout"
+        tools:layout="@layout/fragment_slideshow" />
+</navigation>
