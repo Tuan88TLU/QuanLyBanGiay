@@ -3,41 +3,30 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/mobile_navigation"
-    app:startDestination="@+id/nhaphang">
+    app:startDestination="@+id/logout">
 
     <fragment
         android:id="@+id/nhaphang"
-        android:name="com.example.myapplication.ui.XuatHang.XuatHangFragment"
+        android:name="com.example.myapplication.ui.NhapHang.NhapHangFragment"
         android:label="@string/nhaphang"
         tools:layout="@layout/fragment_nhaphang" />
 
     <fragment
         android:id="@+id/xuathang"
-        android:name="com.example.myapplication.ui.NhapHang.NhapHangFragment"
+        android:name="com.example.myapplication.ui.XuatHang.XuatHangFragment"
         android:label="@string/xuathang"
         tools:layout="@layout/fragment_xuathang" />
 
-    <fragment
-        android:id="@+id/chitiet_nhap"
-        android:name="com.example.myapplication.ui.NhapHang.NhapHangFragment"
-        android:label="@string/chitiet_nhap"
-        tools:layout="@layout/fragment_xuathang" />
-
-    <fragment
-        android:id="@+id/chitiet_xuat"
-        android:name="com.example.myapplication.ui.XuatHang.XuatHangFragment"
-        android:label="@string/chitiet_xuat"
-        tools:layout="@layout/fragment_nhaphang" />
 
     <fragment
         android:id="@+id/hangtrongkho"
-        android:name="com.example.myapplication.ui.Log.LogFragment"
+        android:name="com.example.myapplication.ui.HangTrongKho.HangTrongKhoFragment"
         android:label="@string/hangtrongkho"
-        tools:layout="@layout/hangtrongkho" />
+        tools:layout="@layout/fragment_hangtrongkho" />
 
     <fragment
         android:id="@+id/logout"
         android:name="com.example.myapplication.ui.Log.LogFragment"
         android:label="@string/logout"
-        tools:layout="@layout/fragment_slideshow" />
+        tools:layout="@layout/fragment_log" />
 </navigation>
