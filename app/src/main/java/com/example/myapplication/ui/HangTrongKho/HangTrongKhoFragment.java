@@ -15,7 +15,7 @@ import com.example.myapplication.databinding.FragmentHangtrongkhoBinding;
 public class HangTrongKhoFragment extends Fragment {
 
     private FragmentHangtrongkhoBinding binding;
-    
+
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
         HangTrongKhoViewModel slideshowViewModel =
@@ -34,4 +34,5 @@ public class HangTrongKhoFragment extends Fragment {
         super.onDestroyView();
         binding = null;
     }
+
 }

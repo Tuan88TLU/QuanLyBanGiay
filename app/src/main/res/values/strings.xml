@@ -11,6 +11,8 @@
     <string name="xuathang">Xuất hàng</string>
     <string name="hangtrongkho">Hàng trong kho</string>
     <string name="logout">Đăng xuất</string>
+    <string name="OK">OK</string>
+    <string name="NO">NO</string>
 
     <string-array name="Sizes">
         <item>36</item>

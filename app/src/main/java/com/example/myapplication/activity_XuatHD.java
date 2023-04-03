@@ -1,4 +1,4 @@
 package com.example.myapplication;
 
-public class activity_XuatHang {
+public class activity_XuatHD {
 }
